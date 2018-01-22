@@ -10,8 +10,8 @@ package:
 source:
   fn: RColorBrewer_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/RColorBrewer_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/RColorBrewer/RColorBrewer_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/RColorBrewer_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/RColorBrewer/RColorBrewer_{{ version }}.tar.gz
   sha256: f3e9781e84e114b7a88eb099825936cc5ae7276bbba5af94d35adb1b3ea2ccdd
 
 
